@@ -22,5 +22,6 @@ end
       self.send("#{property}=", value)
     end
   end
-  def tabl
+  def table_name_for_insert 
+    self.class.table_name
 end 
