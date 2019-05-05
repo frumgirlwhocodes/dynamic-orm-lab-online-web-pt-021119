@@ -41,7 +41,7 @@ end
       VALUES (#{values_for_insert})
       SQL
        
-    DB[:conn].execute(sql)
+  DB[:conn].execute(sql)
     @id = DB[:conn].execute("SELECT last_insert_rowid() FROM #{table_name_for_insert}")[0][0]
   end 
 end 
