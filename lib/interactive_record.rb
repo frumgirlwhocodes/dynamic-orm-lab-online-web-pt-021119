@@ -26,5 +26,5 @@ end
     self.class.table_name
   end 
   def col_names_for_insert 
-    self.class.colume_names.delete_if {|col| col.name== "id"}
+    self.class.colume_names.delete_if {|col| col == "id"}.join(" ")
 end 
