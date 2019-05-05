@@ -18,5 +18,5 @@ colume_names.compact
 end 
 def initilize(options={})
   options.each do |k,v|
-    self.send("#{k}=" v)
+    self.send("#{k}=", v)
 end 
