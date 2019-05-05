@@ -52,4 +52,4 @@ end
     sql = "SELECT * FROM #{self.table_name} WHERE #{attr.keys.first} = ?"
     DB[:conn].execute(sql, attr.values.first)
   end
-end 
+ 
