@@ -16,7 +16,7 @@ table_info.each do |row|
 end
 colume_names.compact 
 end 
-def initilize(options={})
+
   def initialize(options={})
     options.each do |property, value|
       self.send("#{property}=", value)
