@@ -21,3 +21,4 @@ def initilize(options={})
     self.send("#{k}=", v)
   end 
 end 
+end 
