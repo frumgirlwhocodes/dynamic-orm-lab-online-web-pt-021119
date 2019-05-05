@@ -35,4 +35,6 @@ end
     end 
         values.join(", ")
   end 
+  def save 
+    sql= SQL
 end 
