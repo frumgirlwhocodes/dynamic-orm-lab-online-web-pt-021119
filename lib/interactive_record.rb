@@ -22,4 +22,5 @@ end
       self.send("#{property}=", value)
     end
   end
+  def tabl
 end 
