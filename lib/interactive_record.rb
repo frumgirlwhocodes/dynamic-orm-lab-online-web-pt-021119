@@ -10,6 +10,7 @@ def self.colume_names
 
     sql = "pragma table_info('#{table_name}')"
     table_info=DB[:conn].execute(sql)
-    colume
-
+    colume_names=[]
+table_info.each do |colume|
+  colume_names << colume["name"]
 end
