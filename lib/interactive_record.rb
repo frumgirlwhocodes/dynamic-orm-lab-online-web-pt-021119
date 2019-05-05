@@ -14,4 +14,6 @@ def self.colume_names
 table_info.each do |row|
   colume_names << row["name"]
 end
-colume_names.
+colume_names.compact 
+end 
+end 
